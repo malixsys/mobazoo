@@ -1,0 +1,7 @@
+{
+  "name": "mobazoo",
+  "description": "Next.js 3.0 starter project with React/Redux and Auth",
+  "repository": "https://github.com/malixsys/mobazoo",
+  "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png",
+  "keywords": ["nextjs", "reactjs", "redux", "authentication"]
+}

@@ -1,0 +1,67 @@
+{
+    "name": "mobazoo",
+    "private": true,
+    "version": "0.9.0",
+    "engines": {
+        "node": "^7.4.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/malixsys/mobazoo"
+    },
+    "description": "Next.js 3.0 starter project with React/Redux and Auth",
+    "alias": "mobazoo",
+    "author": "malixsys",
+    "license": "ISC",
+    "dependencies": {
+        "antd": "^2.12.7",
+        "axios": "0.16.2",
+        "babel-plugin-inline-dotenv": "1.1.1",
+        "babel-plugin-transform-inline-environment-variables": "0.2.0",
+        "babel-preset-stage-0": "6.24.1",
+        "body-parser": "^1.17.2",
+        "express": "4.15.4",
+        "i18next": "^9.0.0",
+        "i18next-browser-languagedetector": "^2.0.0",
+        "i18next-express-middleware": "^1.0.5",
+        "i18next-node-fs-backend": "^1.0.0",
+        "i18next-xhr-backend": "^1.4.3",
+        "isomorphic-unfetch": "2.0.0",
+        "js-cookie": "2.1.4",
+        "jsonwebtoken": "^7.4.3",
+        "moment": "^2.18.1",
+        "morgan": "^1.8.2",
+        "next": "3.0.3",
+        "next-redux-wrapper": "1.3.2",
+        "react": "15.6.1",
+        "react-dom": "15.6.1",
+        "react-media": "1.6.1",
+        "react-redux": "5.0.6",
+        "react-redux-toastr": "7.1.4",
+        "redux": "3.7.2",
+        "redux-cookiestorage": "0.4.6",
+        "redux-devtools-extension": "2.13.2",
+        "redux-thunk": "2.2.0",
+        "sw-precache-webpack-plugin": "^0.11.4"
+    },
+    "devDependencies": {
+        "babel-eslint": "7.2.3",
+        "eslint": "4.4.1",
+        "eslint-config-airbnb": "15.1.0",
+        "eslint-plugin-import": "2.7.0",
+        "eslint-plugin-jsx-a11y": "6.0.2",
+        "eslint-plugin-react": "7.2.0",
+        "nodemon": "^1.11.0",
+        "prop-types": "15.5.10"
+    },
+    "standard": {
+        "parser": "babel-eslint"
+    },
+    "scripts": {
+        "dev": "API_BASE_URL=http://localhost:3000 nodemon server/server.js",
+        "build": "next build",
+        "heroku-postbuild": "npm run build",
+        "start": "NODE_ENV=production node server/server.js",
+        "test": "echo \"No test specified yet\" && exit 0"
+    }
+}

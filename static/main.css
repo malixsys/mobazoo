@@ -1,0 +1,6 @@
+body, .ant-menu-vertical .ant-menu-item, .ant-menu-inline .ant-menu-item {
+    font-size: 15px;
+}
+.ant-layout-sider-zero-width-trigger {
+    top: 0;
+}

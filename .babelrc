@@ -1,0 +1,14 @@
+{
+    "presets": [
+        "next/babel",
+        "stage-0"
+    ],
+    "env": {
+        "development": {
+            "plugins": ["inline-dotenv"]
+        },
+        "production": {
+            "plugins": ["transform-inline-environment-variables"]
+        }
+    }
+}
